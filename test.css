@@ -1,0 +1,76 @@
+#title1{
+    color: green;
+    background-color: orange;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-style: italic;
+}
+.title{
+    background-color: red 
+}
+
+#background{
+    height: 100px;
+    width: 80%;
+    background-image: url(/Users/kosta01856/Desktop/files/pics/sana.jpg);
+    margin: auto;
+    background-size: contain;
+}
+#myTable{
+    width: 50%;
+    text-align: center;
+    place-self: center;
+    margin-left: 25%;
+    border-collapse:separate;
+}
+a:link{
+    color: black;
+}
+a{
+    text-align: center;
+    margin-left: 48%;
+}
+a:hover{
+    color: red;
+}
+td {
+    padding: 10px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: groove;
+    padding: 2px;
+    
+}
+td:hover{
+    background-color: GREEN;
+}
+tr:nth-child(2n+1){
+    background-color: orange;    
+}
+
+.flex-cont{
+    display: flex;
+    background-color: blueviolet;
+    padding: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-cont > div{
+    background-color: red;
+    padding: 25px;
+    margin-right: 25px;
+
+}
+#n1{
+    order: 3;
+    flex-grow: 0;
+}
+#n2{
+    order: 2;
+}
+#n3{
+    order: 1;
+}
